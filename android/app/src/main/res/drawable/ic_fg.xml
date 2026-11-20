@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp" android:viewportWidth="108" android:viewportHeight="108">
+    <!-- two stacked rounded bars + a dot: a server in your pocket -->
+    <path android:fillColor="#FFFFFF" android:pathData="M36,38h36a6,6 0,0 1,6 6v2a6,6 0,0 1,-6 6h-36a6,6 0,0 1,-6 -6v-2a6,6 0,0 1,6 -6z"/>
+    <path android:fillColor="#FFFFFF" android:fillAlpha="0.55" android:pathData="M36,56h36a6,6 0,0 1,6 6v2a6,6 0,0 1,-6 6h-36a6,6 0,0 1,-6 -6v-2a6,6 0,0 1,6 -6z"/>
+    <path android:fillColor="#7C9CFF" android:pathData="M70,45m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0"/>
+</vector>
