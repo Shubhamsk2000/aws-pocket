@@ -1,0 +1,13 @@
+# sshj and Bouncy Castle are loaded reflectively (ciphers, key exchange, key formats)
+-keep class net.schmizz.** { *; }
+-keep class com.hierynomus.** { *; }
+-keep class org.bouncycastle.** { *; }
+-keep class net.i2p.crypto.eddsa.** { *; }
+-dontwarn org.bouncycastle.**
+-dontwarn net.i2p.crypto.**
+-dontwarn org.slf4j.**
+-dontwarn javax.naming.**
+-dontwarn sun.security.**
+-dontwarn org.ietf.jgss.**
+-dontwarn com.jcraft.jzlib.**
+-dontwarn javax.security.auth.login.LoginContext
